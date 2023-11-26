@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-top">
+      <div class="rectangle-div"></div>
+      <img class="group-icon" alt="" src="./public/group-21.svg" />
+
+      <img class="frame-child1" alt="" src="./public/group-1.svg" />
+
+      <img class="frame-child2" alt="" src="./public/group-19.svg" />
+
+      <div class="group-div">
+        <div class="div16">Дім</div>
+        <div class="div17">Про нас</div>
+        <div class="div18">Адресса</div>
+        <div class="div19" id="text3">Логін</div>
+      </div>
+      <div class="rectangle-parent1" id="groupContainer1">
+        <div class="group-inner"></div>
+        <div class="div20">ДІзнатись більше</div>
+      </div>
+      <div class="parent1">
+        <div class="div21">Центр Культури і Дозвілля</div>
+        <div class="wrapper">
+          <a
+            class="a"
+            href="https://smr.gov.ua/uk/miska-vlada/vikonavchi-organi/zaklady-ta-ustanovy/tsentr-kultury-i-dozvillia/24574-tsentr-kulturi-i-dozvillya.html"
+            target="_blank"
+            >Що це таке?
+          </a>
+        </div>
+        <div class="div22">
+          Центр культури і дозвілля є установою, мета якої полягає у вивченні,
+          аналізі та координації процесів культурного розвитку міста,
+          впровадження нових технологій та методик масової культури, організація
+          співробітництва з іншими суб’єктами культурної діяльності, незалежно
+          від відомої приналежності і форм власності, у створенні умов для
+          самодіяльної творчості, духовного розвитку, організації відпочинку
+          населення.
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var div16 = document.querySelector(".div16"); // Дім
+      var text3 = document.getElementById("text3"); // Логін
+      var div17 = document.querySelector(".div17"); // Про нас
+      var div18 = document.querySelector(".div18"); // Адресса
+      var div20 = document.querySelector(".div20"); // ДІзнатись більше
+
+      if (div16) {
+        div16.addEventListener("click", function () {
+          window.location.href = "./frame-1.html";
+        });
+      }
+
+      if (text3) {
+        text3.addEventListener("click", function () {
+          window.location.href = "./frame-2.html";
+        });
+      }
+
+      if (div17) {
+        div17.addEventListener("click", function () {
+          window.location.href = "./index.html";
+        });
+      }
+
+      if (div18) {
+        div18.addEventListener("click", function () {
+          window.location.href = "./frame-1.html";
+        });
+      }
+
+      if (div20) {
+        div20.addEventListener("click", function () {
+          window.location.href = "./index.html";
+        });
+      }
+    </script>
+  </body>
+</html>

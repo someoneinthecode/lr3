@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-parent">
+      <div class="frame-child"></div>
+      <img class="frame-item" alt="" src="./public/group-2.svg" />
+
+      <div class="parent">
+        <div class="div" id="text4">Дім</div>
+        <div class="div1" id="text1">Про нас</div>
+        <div class="div2" id="text3">Адресса</div>
+        <div class="div3" id="text2">Логін</div>
+      </div>
+      <div class="group">
+        <div class="div4">Основним завданням установи є:</div>
+        <div class="div5">
+          <ul class="ul">
+            <li class="li">
+              Сприяння процесу відродження і розвитку української національної
+              культури та культур інших національних меншин, що проживають на
+              території міста.
+            </li>
+            <li class="li">
+              Розвиток аматорського мистецтва, самодіяльної народної творчості в
+              усій багатогранності її видів та жанрів, розкриття творчих
+              здібностей і обдарувань людей.
+            </li>
+            <li class="li">
+              Підтримка соціально важливих культурно-творчих,
+              пізнавально-розважальних, художньо-естетичних ініціатив.
+            </li>
+            <li class="li">
+              Проведення фестивалів, конкурсів, оглядів, творчих звітів,
+              організація виставок самодіяльного образотворчого та
+              декоративно-ужиткового мистецтва, інших культурно-мистецьких
+              заходів.
+            </li>
+            <li class="li">
+              Надання комплексу послуг, які забезпечуватимуть найповніше
+              задоволення потреб населення в організації його змістовного
+              відпочинку.
+            </li>
+            <li>
+              Надання інформаційних та методичних послуг і консультацій
+              культурно-дозвіллєвим та іншим закладам в організації змістовного
+              відпочинку.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var text1 = document.getElementById("text1");
+      if (text1) {
+        text1.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+    </script>
+
+    <script>
+      var text2 = document.getElementById("text2");
+      if (text2) {
+        text2.addEventListener("click", function (e) {
+          window.location.href = "./frame-2.html";
+        });
+      }
+    </script>
+
+    <script>
+      var text3 = document.getElementById("text3");
+      if (text3) {
+        text3.addEventListener("click", function (e) {
+          window.location.href = "./frame-1.html";
+        });
+      }
+    </script>
+
+    <script>
+      var text4 = document.getElementById("text4");
+      if (text4) {
+        text4.addEventListener("click", function (e) {
+          window.location.href = "./frame-1.html";
+        });
+      }
+    </script>
+  </body>
+</html>

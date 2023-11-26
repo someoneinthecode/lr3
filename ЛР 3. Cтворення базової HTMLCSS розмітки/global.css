@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-inherit: inherit;
+  --font-adamina: Adamina;
+  --font-abel: Abel;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-34xl: 53px;
+  --font-size-7xl: 26px;
+  --font-size-12xl: 31px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: #414d45;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
